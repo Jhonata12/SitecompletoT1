@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projeto 01</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+      
+      
+body{
+  overflow-x: hidden;
+
+}
+
+.te{
+  width: 1000px;
+  margin-right: 90px;
+  margin-top: -300px;
+ 
+}
+
+.img10{
+  width: 300px;
+
+}
+
+.te2{
+    color: rgb(0, 0, 0);
+    scale: 60%;
+    margin-top: 150px;
+    margin-right: 20px;
+    text-align: center,justify;
+    scale: 80%;
+}
+
+
+#container {
+    display: inline-block;
+    position: relative;
+
+    width: 1200px;
+ margin-left: 70px;
+ margin-right: auto;
+  }
+  
+  #container figcaption {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+  }
+
+  .img{
+    opacity: 46%;
+    border-radius: 200px;
+    max-width: 100%;
+    
+    
+  }
+
+  .text01{
+    text-align: left;
+    
+  }
+
+ 
+
+.img2{
+    width: 700px;
+    float: left;
+    margin-left: 120px;
+    margin-right: -400px;
+    margin-bottom: 150px;
+    margin-top: -95px;
+    scale: 110%;
+
+}
+
+body{
+    background-color: black;
+}
+
+.text{
+  width: 700px;
+    color: rgb(255, 214, 30);
+    margin-left: 1000px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scale: 200%;
+    margin-top: 70px;
+    margin-bottom: -100px;
+
+}
+
+.tex{
+    margin-left: -50px;
+    margin-right: -300px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    scale: 130%;
+}
+
+h1{
+  margin-bottom: 250px;
+  margin-left: -27px;
+}
+
+.t{
+    margin-top: 42px;
+    margin-right: 530px;
+    margin-left: 700px;
+    margin-bottom: 15px;
+    text-align: justify;
+    scale: 140%;
+}
+
+
+#container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #container figcaption {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: black;
+  }
+  
+#figcaption{
+    color: white;
+}
+
+body{
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+    font-size: 12px;
+    
+    }
+
+
+.box1{
+    
+    background-color: rgb(255, 214, 30);
+    padding: 150px;
+    margin-top: -420px;
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 100px;
+
+    
+    }
+
+.box2{
+    
+        background-color: white;
+        margin-top: 100px;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 50px;
+        }
+
+.img3{
+    text-align: center;
+    max-width: 100%;
+}
+
+
+
+html, body {
+    height: 100%;
+  }
+  
+  .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #d1c44f;
+  background: linear-gradient(90deg, rgb(228, 230, 129) 0%, rgb(209, 200, 79) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(209, 200, 79, 0.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    margin-left: -30px;
+    margin-bottom: -220px;
+    margin-top: 285px;
+    }
+  
+  button::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #fffb00;
+    box-shadow: 0 0 60px rgba(229, 255, 0, 0.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .button:hover, .button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+  
+  button:hover::before, button:focus::before {
+    opacity: 1;
+  }
+  
+  button::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #ffe600;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+    
+  }
+  
+  button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+
+  }
+  
+  @keyframes ring {
+    0% {
+      width: 40px;
+      height: 15px;
+      opacity: 1;
+    }
+    100% {
+      width: 400px;
+      height: 150px;
+      opacity: 0;
+    }
+  }
+
+
+  .img4{
+    scale: 80%;
+    text-align: center;
+    margin-top: -200px;
+    max-width: 100%;
+  }
+
+
+.texto1{
+  
+  text-align: center;
+  margin-top: -10px;
+  scale: 180%;
+   
+}
+
+.texto2{
+    text-align: center, justify;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    scale: 100%;
+
+}
+
+.icons{
+    margin-top: 20px;
+    margin-left: 400px ;
+
+}
+
+.icons2{
+    margin-top: -53px;
+    margin-left: 700px;
+  
+}
+
+.preco{
+  width: 500px;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: -50px;
+  margin-bottom: -470px;
+}
+
+.img8{
+  width: 300px;
+  margin-left: 400px;
+  margin-top: -500px;
+  margin-bottom: 18px;
+  max-width: 100%;
+  
+}
+
+
+.box3{
+  width: 1200px;
+  background-color: rgb(255, 214, 30);
+  margin-top: 100px;
+  margin-left: 0;
+  margin-right: 0;
+  border-radius: 250px;
+  scale: 70%;
+  
+  
+  
+  }
+
+  .t2{
+    margin-right: -300px;
+
+  }
+
+  .img10{
+    width: 900px;
+    margin-left: 80px;
+  }
+
+  .garantia{
+    margin-top: 600px;
+  }
+
+  @media (min-width: 100px) and (max-width: 768px){
+
+    #container{
+      scale: 28%;
+      margin-left: -405px;
+      margin-right: -100px;
+      margin-top: -320px;
+    }
+
+    .pt2{
+      scale: 29%;
+      margin-top: -650px;
+      margin-left: -175px;
+      
+    }
+    .img2{
+      margin-top: -95px;
+      margin-bottom: 70px;
+    }
+    h1{
+      margin-left:-50px;
+      }
+
+    .t{
+      width: 250px;
+      margin-left: -50px;
+      margin-bottom: -50px;
+    }
+   
+    
+    .img3{
+      margin-top: -200px;
+    }
+
+
+    .img8{
+      scale: 40%;
+      margin-left: 10px;
+      margin-top: -450px;
+      margin-bottom: 254px;
+    }
+
+    .preco{
+      width: 190px;
+      margin-left: 85px;
+      margin-bottom: 100px;
+      margin-top: -50px;
+
+    }
+
+    .t{
+      margin-right: -290px;
+      margin-left: 680px;
+      margin-top: -30px;
+      margin-bottom: 60px;
+
+    }
+    
+    .button{
+      scale: 250%;
+      margin-left: -50px;
+      margin-top: -350px;
+      margin-bottom: 400px;
+    }
+
+  
+
+    .text{
+      width: 300px;
+      margin-left: 820px;
+      scale: 150%;
+      margin-top: 150px;
+      margin-bottom: -130px;
+         }
+
+    .tex{
+      margin-left: -50px;
+      margin-right: -300px;
+      margin-top: 30px;
+    }
+    .garantia{
+      scale: 110%;
+      margin-top: -200px;
+      margin-bottom: 230px;
+      margin-left: -10px;
+    }
+
+    .box2{
+      height: 450px;
+    }
+    .icons{
+      scale: 150%;
+      margin-left: 550px;
+      margin-top: 80px;
+    }
+    .icons2{
+      scale: 150%;
+      margin-left: 800px;
+    }
+    .texto1{
+      margin-top: -20px;
+    }
+    .texto2{
+      width: 800px;
+      margin-left: 200px;
+      scale: 130%;
+      margin-top: 50px;
+    }
+
+    
+    body{
+      overflow-x: hidden;
+    }
+  }
+  
+
+    </style>
+    
+
+</head>
+
+<body>
+    <figure id="container">
+        <div class="img"><img class="img" src="img background.jpg" width="1200px" /></div>  
+
+
+        <div class="text01"><figcaption><img class="te" src="texto.png"></figcaption></div>
+       <div class="text02"><figcaption>
+                                        <div class="box3">
+                                            <div class="img10" scale="80%" text-aling="center">
+                                              <img class="img10" src="TOPICOS2.png">     
+                                            </div>                              
+                                         </div>
+            
+
+        </figcaption></div>
+        
+    </figure>
+
+
+
+
+<figure class="pt2">
+    <div class="text"><figcaption>
+    <h1>Quem é Alex Maciel?</h1></figcaption>
+          </div>
+      
+
+
+ <div class="tex">
+  <figcaption><div><img class="img2" src="FOTO EBOOK.png" ></div>
+   <div>
+        <p class="t">➢Sou um apaixonado por Matemática e Física e principalmente pelo ensino das ciências.</p>
+
+        <p class="t">➢Há mais de 20 anos mergulhei na experiência maravilhosa de dar aulas.</p>
+
+        <p class="t">➢Nesse tempo pude adquirir muitas habilidades, tais como: Paciência, criatividade, paixão e principalmente empatia, pois pude entender cada dificuldade dos alunos e levá-los a grandes conquistas.</p>
+
+        <p class="t">➢Criei o Método 80/20 de aprendizagem para que os alunos pudessem aprender MAIS, MELHOR e em MENOS tempo. Afinal, 80% dos seus resultados advém de 20% de esforço no que mais importa.</p>
+   
+        <p class="t">➢Posso ser o seu MENTOR nessa jornada da Aprendizagem. Experiência, Entusiasmo, Disciplina e Dedicação não faltam para quem é apaixonado por educação.</p>
+   </div></figcaption>
+    </div>
+    </figure>
+    
+
+    
+    
+        <figure id="container">
+            <div class="img3"><img class="img3" src="EBOOK - PNG.png" width="400px" /></div>  
+            <div class="box1"></div>
+    
+    
+           
+           <div class="text02"><figcaption>
+                
+              
+                                </figcaption></div>
+            
+        </figure>
+
+
+        <div>
+                <img class="preco" src="Preco.png">
+        </div>
+
+        <div>
+                    <img class="img8" src="Seta2.png">
+        </div>
+        <figure id="container">
+
+        <div class="wrap">
+            <button class="button">Compra Agora</button>
+            
+          </div>
+
+
+    <div class="garantia">
+            <div class="box2"><div class="img4"><img class="img4" src="garantia.png" width="400px" /></div>
+        
+        <p class="texto1">SEUS RESULTADOS GARANTIDOS OU SEU DINHEIRO 100% DE VOLTA</p>
+        <p class="texto2">    
+            Serão 7 dias para você estudar e colocar em prática, e se você achar que o prometido não foi cumprido, você terá o valor integral estornado.
+            Ou se, por qualquer outro motivo você não ficar satisfeito, basta entrar em contato com a minha equipe de suporte colocaremail@gmail.com e solicitar o reembolso do valor investido.
+            Você receberá de volta cada centavo que pagou.</p>
+        
+        <div class="icons">
+            
+            <a href="https://www.instagram.com/professoralexmaciel/"><img class="5" src="instagram.png" width="50px"></a>
+
+        </div>
+
+        <div class="icons2">
+            <a href="https://www.youtube.com/channel/UCLZziNyJGNC6M51Zx09TFlg"><img class="6" src="youtube (1).png" width="50px"></a>
+        </div>
+            </div>
+        </div>
+           
+           <div class="text02"><figcaption>
+                
+              
+                                </figcaption></div>
+    
+        </figure>
+        
+
+
+</body>
+</html>
